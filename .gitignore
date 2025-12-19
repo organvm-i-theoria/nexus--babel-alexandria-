@@ -1,0 +1,36 @@
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.asc
+secrets.yaml
+secrets.json
+*.kdbx
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+dist/
+build/
+*.egg-info/
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
