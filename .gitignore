@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+.venv/
+
+# Poetry
+# poetry.lock - Committed to ensure reproducible builds
+
+# Pytest
+.pytest_cache/
+
+# MyPy
+.mypy_cache/
+
+# Distribution / Packaging
+dist/
+build/
+*.egg-info/
