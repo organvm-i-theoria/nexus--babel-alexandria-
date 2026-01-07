@@ -1,0 +1,29 @@
+# Security: Secrets and Credentials
+.env
+.env.*
+*.pem
+*.key
+*.cert
+secrets.json
+credentials.json
+token.json
+id_rsa
+id_rsa.pub
+.ssh/
+
+# Security: Local Development & Logs
+*.log
+*.sqlite
+.vscode/
+.idea/
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+node_modules/
+dist/
+build/
+coverage/
+.coverage
