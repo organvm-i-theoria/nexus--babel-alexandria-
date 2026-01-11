@@ -2,6 +2,8 @@
 
 ## Exhaustive Implementation Roadmap
 
+> **Note:** For the comprehensive design specifications, please refer to [DESIGN.md](./DESIGN.md).
+
 ### Executive Overview
 
 This roadmap provides atomic-level task decomposition for implementing the Rhetorical-Linguistic Operating System. Each task is designed to be independently executable with clear dependencies, deliverables, and validation criteria.
