@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Poetry
+.venv/
+# poetry.lock is intentionally not ignored (application)
+
+# Environment Variables & Secrets
+.env
+.env.*
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# RLOS Specific Data Directories
+data/
+models/
+cache/
