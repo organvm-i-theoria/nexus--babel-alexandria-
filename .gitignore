@@ -1,0 +1,63 @@
+# General
+.DS_Store
+*.log
+tmp/
+temp/
+
+# Environment Variables (CRITICAL SECURITY)
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+.venv/
+env/
+.env/
+
+# Poetry
+
+# Node / Frontend
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm/
+dist/
+.cache/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# RLOS Specific (Data directories mentioned in roadmap)
+/data/corpora/
+/data/models/
+/data/cache/
