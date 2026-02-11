@@ -1,0 +1,60 @@
+# Security: Prevent secret leakage
+.env
+.env.*
+!.env.example
+secrets.json
+*.pem
+*.key
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Poetry
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Node/Frontend (if applicable later)
+node_modules/
+npm-debug.log
+yarn-error.log
+pnpm-debug.log*
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# RLOS Data Directories
+data/
+models/
+logs/
+
+# System
+.DS_Store
+Thumbs.db
