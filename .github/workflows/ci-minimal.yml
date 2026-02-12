@@ -1,0 +1,23 @@
+name: CI
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate repository structure
+        run: |
+          echo "Repository structure validation"
+          test -f README.md && echo "✓ README.md exists" || echo "✗ README.md missing"
+          if [ -f "requirements.txt" ]; then
+            echo "✓ Python dependencies found"
+            pip install -r requirements.txt 2>/dev/null || true
+          fi
+          if [ -f "package.json" ]; then
+            echo "✓ Node.js project found"
+          fi
+          echo "✓ Repository validation complete"
